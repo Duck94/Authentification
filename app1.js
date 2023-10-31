@@ -18,6 +18,7 @@ app.use(express.static("public"));
 app.set("view engine","ejs");
 app.use(bodyParser.urlencoded({extended:true}));
 
+
 // connecter a moongose
 main().catch(err => console.log(err));
 
